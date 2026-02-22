@@ -84,3 +84,13 @@ export interface AttendeeWithIntel extends Attendee {
     ask_or_offer: string
   }
 }
+
+// AI Cache
+export interface AICache {
+  id: string
+  cache_key: string
+  request_type: 'embedding' | 'generation' | 'parsing'
+  request_params: any
+  response: any
+  created_at: string
+}
