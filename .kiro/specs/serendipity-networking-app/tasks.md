@@ -59,21 +59,21 @@ This implementation plan breaks down the Serendipity networking app into discret
     - **Property 18: Cache miss stores new response**
     - **Validates: Requirements 9.2, 9.3, 9.4**
 
-- [ ] 5. User profile creation and onboarding
-  - [ ] 5.1 Create profile form component
+- [x] 5. User profile creation and onboarding
+  - [x] 5.1 Create profile form component
     - Build multi-field form with validation
     - Add fields: name, role, company, current_work (textarea), looking_for (multi-select), can_offer (multi-select), interests (tags input)
     - Implement client-side validation for required fields
     - _Requirements: 1.3, 1.4_
 
-  - [ ] 5.2 Create profile API route
+  - [x] 5.2 Create profile API route
     - Implement `POST /api/profile` endpoint
     - Validate profile data server-side
     - Generate embedding from profile text using Gemini
     - Store profile and embedding in Supabase
     - _Requirements: 1.5, 1.6, 1.7_
 
-  - [ ] 5.3 Create onboarding page
+  - [x] 5.3 Create onboarding page
     - Build `/onboard` page with ProfileSetupForm component
     - Handle form submission and loading states
     - Redirect to `/events` on success
