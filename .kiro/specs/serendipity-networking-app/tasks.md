@@ -90,15 +90,15 @@ This implementation plan breaks down the Serendipity networking app into discret
 - [x] 6. Checkpoint - Verify onboarding flow
   - Ensure all tests pass, ask the user if questions arise.
 
-- [ ] 7. Event data fetching and aggregation
-  - [ ] 7.1 Implement event source integrations
+- [x] 7. Event data fetching and aggregation
+  - [x] 7.1 Implement event source integrations
     - Create Luma discover endpoint fetcher (primary source)
     - Create Eventbrite API fetcher (fallback)
     - Create Meetup HTML scraper (final fallback)
     - Implement fallback chain logic with error handling
     - _Requirements: 2.1, 2.2, 2.3, 10.3, 10.4_
 
-  - [ ] 7.2 Create event storage and retrieval
+  - [x] 7.2 Create event storage and retrieval
     - Implement event normalization from different sources
     - Store events in Supabase with deduplication (UNIQUE constraint on source + source_id)
     - Create event retrieval functions
