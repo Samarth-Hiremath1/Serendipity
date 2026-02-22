@@ -13,8 +13,8 @@ This implementation plan breaks down the Serendipity networking app into discret
   - Install dependencies: `@supabase/supabase-js`, `@google/generative-ai`, `fast-check`, `crypto`
   - _Requirements: All_
 
-- [ ] 2. Database schema and Supabase configuration
-  - [ ] 2.1 Create Supabase tables with SQL migrations
+- [x] 2. Database schema and Supabase configuration
+  - [x] 2.1 Create Supabase tables with SQL migrations
     - Create `user_profiles` table with pgvector embedding column
     - Create `events` table with source tracking
     - Create `attendees` table with pgvector embedding column
