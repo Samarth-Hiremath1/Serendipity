@@ -87,7 +87,7 @@ This implementation plan breaks down the Serendipity networking app into discret
     - **Property 2: Valid profiles generate embeddings**
     - **Validates: Requirements 1.5**
 
-- [ ] 6. Checkpoint - Verify onboarding flow
+- [x] 6. Checkpoint - Verify onboarding flow
   - Ensure all tests pass, ask the user if questions arise.
 
 - [ ] 7. Event data fetching and aggregation
