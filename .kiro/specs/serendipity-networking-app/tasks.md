@@ -29,7 +29,7 @@ This implementation plan breaks down the Serendipity networking app into discret
     - **Property 3: Data persistence round-trip**
     - **Validates: Requirements 1.6, 2.4, 3.5, 6.6, 7.7**
 
-- [ ] 3. Authentication setup
+- [x] 3. Authentication setup
   - Configure Supabase Auth with email/magic link
   - Create auth middleware for protected routes
   - Implement sign-up and login pages
